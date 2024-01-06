@@ -1,6 +1,6 @@
 # Customer Feedback Portal with User Authentication
 
-## MONGODB_URI = 'SET YOUR MONGODB LINK'
+## MongoDB_URI = 'SET YOUR MongoDB LINK'
 
 ## Installation
 1. Clone the project:
