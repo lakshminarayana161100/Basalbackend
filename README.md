@@ -3,7 +3,7 @@
 ## Installation
 1. Clone the project:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+   [ git clone https://github.com/your-username/your-repository.git](https://github.com/lakshminarayana161100/Basalbackend.git)
     ```
 
 2. Install dependencies:
