@@ -3,12 +3,14 @@ const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose')
 const cors = require('cors');
+require('dotenv').config();
 
 const userRoutes = require("./routes/users");
-const authRoutes = require("./routes/auth");
+
 
 const feedbackRoute = require("./routes/feedback");
-mongoose.connect('mongodb+srv://lakshminarayana:narayana@cluster0.ewnrqzl.mongodb.net/?retryWrites=true&w=majority', {
+
+mongoose.connect(process.env.MONGODB_URI, {
     
 }).then(
     () => console.log('DB connected..... ')
@@ -26,7 +28,6 @@ app.use(cors());
 
 // routes
 app.use("/api/users", userRoutes);
-app.use("/api/auth", authRoutes);
 app.use("/feedback", feedbackRoute);
 
 
