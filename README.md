@@ -1,5 +1,7 @@
 # Customer Feedback Portal with User Authentication
 
+## MONGODB_URI = 'SET YOUR MONGODB LINK'
+
 ## Installation
 1. Clone the project:
     ```bash
